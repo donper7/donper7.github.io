@@ -25,13 +25,16 @@ body {
     margin-top: 20px;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .highlight-orange {
     background-color: orange;
 }
 
-.highlight-red {
-    background-color: red;
-    color: white;
+.red-text {
+    color: red;
 }
 
 .back-link {
