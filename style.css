@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.cover-image {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.highlight-orange {
+    background-color: orange;
+}
+
+.highlight-red {
+    background-color: red;
+    color: white;
+}
+
+.back-link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: blue;
+}
