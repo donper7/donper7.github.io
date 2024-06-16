@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Calculator</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 18px;
+            text-align: left;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <form id="calculator-form">
+        <label for="number1">Number 1:</label>
+        <input type="text" id="number1" name="number1"><br><br>
+        <label for="operator">Operator (+, -, *, /, %):</label>
+        <input type="text" id="operator" name="operator"><br><br>
+        <label for="number2">Number 2:</label>
+        <input type="text" id="number2" name="number2"><br><br>
+        <button type="submit">Calculate</button>
+    </form>
+    <div id="results">
+        <h2>Results</h2>
+        <table id="results-table">
+            <tr>
+                <th>Number 1</th>
+                <th>Operator</th>
+                <th>Number 2</th>
+                <th>Result</th>
+            </tr>
+        </table>
+    </div>
+    <div id="summary">
+        <h2>Summary</h2>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
